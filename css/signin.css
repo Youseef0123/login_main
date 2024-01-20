@@ -1,0 +1,16 @@
+body{
+    background-image: url(../imag/pexels-t-leish-5259418\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section h2{
+color: wheat;
+border-radius: 20px;
+background-color: rgba(93, 93, 126, 0.6);
+}
+
+.formInput{
+background-color: rgba(44, 42, 42, 0.73);
+  
+}

@@ -1,0 +1,28 @@
+
+
+body{
+    background-image: url(../imag/pexels-henry-&-co-1406282.jpg);
+    background-position: center;
+    background-size: cover;
+}
+a{
+
+    text-decoration: none;
+}
+.card-vip{
+ 
+    position: relative;
+    width: 50%;
+    height: 440px;
+    top: -40%;
+    left: 20%;
+    background-color:transparent;
+    border: 2px solid rgba(255, 255,255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

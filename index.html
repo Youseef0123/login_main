@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUP</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+
+<section class="container m-auto p-5">
+ <div>
+
+
+
+
+</div>
+
+
+<div class="card card-vip pe-4" >
+    <div class="card-body ">
+      <h5 class="card-title text-light">Smart SignUp System</h5>
+      <h6 class="card-subtitle mb-2  text-danger">SignUp</h6>
+      <p class="card-text text-light">Please creat new account</p>
+
+      <input id="nameInput" type="text" placeholder="Enter your name" class="form-control m-4 w-100" >
+
+<input id="emailInput" type="email" placeholder="Enter your email" class="form-control m-4">
+
+<input id="passInput" type="password" placeholder="Enter your password" class="form-control m-4">
+
+<h6 id="exist" class="d-none text-danger" >already exist</h4>
+<h6 id="sucsess" class=" text-primary d-none">sucsess</h4>
+
+  <div class="alert alert-danger d-none" id="alerUrl" role="alert">
+   your email is valid, pleas try again
+  </div>
+<button id="btnSignup" class="btn btn-danger" > Sign Up</button>
+
+ <p><span>I have an account:</span> <a class="text-danger" id="signIn" href="#" >signin</a>
+     </p>
+    </div>
+  </div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/signup.js" ></script>
+    
+</body>
+</html>
